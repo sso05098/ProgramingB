@@ -9,12 +9,12 @@ public class E {
 		int[] number = { 1, 3, 10, 20, 40, 20, 10, 2 };
 		System.out.print("숫자를 입력하세요 : ");
 		int input = sc.nextInt();
-		int result = getSum(number, input);
+		int result = getcount(number, input);
 
 		System.out.println("입력한 수보다 큰 수의 개수는 " + result + "개 입니다.");
 	}
 
-	static int getSum(int[] array, int a) {
+	static int getcount(int[] array, int a) {
 		int count = 0;
 		for (int num : array) {
 			if (num > a)
